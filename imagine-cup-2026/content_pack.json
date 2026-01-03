@@ -1,0 +1,7 @@
+{
+  "topic": "Big-O Basics",
+  "diagnostic": [
+    {"id":"D1","question":"What is the time complexity of a loop over n items?"},
+    {"id":"D2","question":"What is the complexity of halving n each step?"}
+  ]
+}

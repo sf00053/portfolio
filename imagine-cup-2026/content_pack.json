@@ -1,7 +1,30 @@
 {
   "topic": "Big-O Basics",
+  "misconceptions": [
+    {
+      "id": "M1",
+      "name": "Confusing input size (n) with input values",
+      "desc": "Student thinks Big-O depends on the actual numbers in the data, not the number of items n."
+    },
+    {
+      "id": "M2",
+      "name": "Constants matter in Big-O",
+      "desc": "Student thinks O(2n) is different from O(n) in Big-O terms because of the constant factor."
+    },
+    {
+      "id": "M3",
+      "name": "Doesn't understand halving implies log n",
+      "desc": "Student treats repeated halving as linear or does not connect divide-by-2 steps to logarithmic growth."
+    },
+    {
+      "id": "M4",
+      "name": "Mixes up best-case and worst-case",
+      "desc": "Student gives best-case or average-case when the question expects worst-case (or vice versa)."
+    }
+  ],
   "diagnostic": [
-    {"id":"D1","question":"What is the time complexity of a loop over n items?"},
-    {"id":"D2","question":"What is the complexity of halving n each step?"}
+    { "id": "D1", "question": "What is the time complexity of a loop over n items?" },
+    { "id": "D2", "question": "What is the complexity of halving n each step? (Example: i = n; while i>1: i = i/2)" }
   ]
 }
+
